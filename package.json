@@ -1,0 +1,17 @@
+{
+  "name": "node-http-server",
+  "version": "1.0.0",
+  "description": "Node.js example server starter project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "nodemon": "1.18.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4",
+    "sqlite3": "^4.2.0"
+  },
+  "keywords": []
+}
