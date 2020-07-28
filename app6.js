@@ -22,7 +22,7 @@ app.get("/db", (req, res) => {
         })
     })
 })
-app.get("/top", (req,res) => {
+app.get("/top", (req, res) => {
     //console.log(req.query.pop);    // ①
     let desc = "";
     if( req.query.desc ) desc = " desc";
